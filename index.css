@@ -1,0 +1,85 @@
+
+body {
+    display: flex; /* Center content horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: Arial, sans-serif; 
+    background-color: #f1c1c1; 
+  }
+  
+  /* Main container styling */
+  .container {
+    background: rgb(240, 216, 216); 
+    padding: 20px 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 350px;
+    text-align: center; 
+  }
+  
+  /* Header styling: logo and title */
+  .header {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 20px; 
+  }
+  
+  /* Logo styling */
+  .logo {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; /* Make the logo circular */
+    margin-right: 10px; /* Add space between the logo and the title */
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 24px; 
+    color: #333; 
+    margin: 0;
+  }
+  
+  /* Labels styling */
+  label {
+    display: block; 
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    text-align: left; 
+  }
+  
+  /* Input fields styling */
+  input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 2px solid #ccc; 
+    border-radius: 15px; /* Rounded corners for inputs */
+    outline: none; 
+    font-size: 14px; 
+  }
+  
+  /* Highlight the input field when focused */
+  input:focus {
+    border-color: rgb(215, 118, 185); /* Change border color to blue on focus */
+  }
+  
+  /* Login button styling */
+  button {
+    width: 100%; 
+    padding: 10px; 
+    background: rgb(226, 154, 203); 
+    color: white; 
+    border: none; 
+    border-radius: 15px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease; /* Smooth animation for hover effect */
+  }
+  
+  /* Zoom effect for button on hover */
+  button:hover {
+    transform: scale(1.25); /* Slightly enlarge the button */
+  }
+  
