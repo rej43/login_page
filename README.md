@@ -1,0 +1,1 @@
+A basic login page built with HTML and CSS. It allows users to enter a username and password with basic field validation. This project doesn't store data or include authentication, and serves as a simple template for creating login forms.
